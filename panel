@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# ASCII Art
+ascii_art="
+
+  _   _  ___ _____ ____  ____  _   _ _   _ _  ____   __
+ | \ | |/ _ \_   _/ ___||  _ \| | | | \ | | |/ /\ \ / /
+ |  \| | | | || | \___ \| |_) | | | |  \| | ' /  \ V / 
+ | |\  | |_| || |  ___) |  __/| |_| | |\  | . \   | |  
+ |_| \_|\___/ |_| |____/|_|    \___/|_| \_|_|\_\  |_|  
+                                                       
+                                 
+"
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+
+# panel install
+apt update 
+apt upgrade 
+
+# done
+clear
+echo 'made by NotSpunky'
